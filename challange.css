@@ -1,0 +1,61 @@
+img{
+    width: 650px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+  }
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.informaion{
+    margin-top: 300px;
+    margin-right: 200px;
+}
+.photo{
+    margin-top: 270px;
+    margin-left: 200px;
+}
+.title{
+    width: 586px;
+    color: #333;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700px;
+    letter-spacing: -2.24px;
+}
+.desc{
+    width: 381px;
+    color:#4F4F4F;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400px;
+    letter-spacing: .84px;
+    line-height: 40px;
+
+    
+}
+.btn{
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* for small device */
+@media screen and (max-width : 576px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .photo{
+        width: 100%;
+        margin-left: 0;
+    }
+    .informaion{
+        width: 80%;
+        margin-top: 0;
+        margin-left: 20px;
+        color: rgb(114, 28, 28);
+    }
+}
